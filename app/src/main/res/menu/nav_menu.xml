@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_beranda"
+        android:checked="true"
+        android:icon="@drawable/ic_menu_beranda"
+        android:title="@string/tab_beranda"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_history"
+        android:checked="false"
+        android:icon="@drawable/ic_menu_history"
+        android:title="@string/tab_history"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_saldo"
+        android:checked="false"
+        android:icon="@drawable/ic_menu_saldo"
+        android:title="@string/tab_saldo"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_profil"
+        android:checked="false"
+        android:icon="@drawable/ic_menu_user"
+        android:title="@string/tab_user"
+        app:showAsAction="ifRoom" />
+</menu>

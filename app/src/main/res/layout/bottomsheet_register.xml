@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bottomsheet_register"
+    android:background="@drawable/bottomsheet_rounded"
+    android:layout_marginBottom="20dp"
+    android:padding="20dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="18sp"
+            android:letterSpacing="-0.02"
+            android:layout_alignParentLeft="true"
+            android:textColor="#333333"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/closeRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_x"
+            android:layout_alignParentRight="true"
+            android:contentDescription="TODO" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:letterSpacing="-0.02"
+        android:textColor="#333333"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/edittext_login"
+        android:layout_marginBottom="15dp"
+        android:hint="Masukkan Username"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:textColor="#828282"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:letterSpacing="-0.02"
+        android:textColor="#333333"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/edittext_login"
+        android:layout_marginBottom="15dp"
+        android:hint="Masukkan Password"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:textColor="#828282"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Handphone"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:letterSpacing="-0.02"
+        android:textColor="#333333"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/edittext_login"
+        android:layout_marginBottom="15dp"
+        android:hint="Masukkan No Handphone"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:textColor="#828282"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:letterSpacing="-0.02"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_login"/>
+
+</LinearLayout>

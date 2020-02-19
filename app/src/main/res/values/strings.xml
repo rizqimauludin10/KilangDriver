@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KilangDriver</string>
+    <string name="tab_beranda">Beranda</string>
+    <string name="tab_history">History</string>
+    <string name="tab_saldo">Saldo</string>
+    <string name="tab_user">Profil</string>
+</resources>
